@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form1 </title>
+    </head>
+    <body>
+        <form>
+                <div>
+                    <input name="name" type="text" placeholder="Name">
+                    <input name="password" type="password" placeholder="Password">
+                    <!--type="password" noktalı görüntüyü veriyo--> 
+                </div>
+                <div>
+                    Favorite color?
+                    <input name="color" type="radio" value="red"> red
+                    <input name="color" type="radio" value="green"> green
+                    <!--type="radio" seçenek simgesini yapıyo-->
+                </div>
+                <div>
+                    <input name="artist" list="artists" placeholder="favourite artist">
+                    <datalist id="artists">
+                        <option value="lana">
+                        <option value="shawn">
+                        <option value="ben">    
+                        <!--seçenek veriyo ülke seçme şeyi gibi-->
+    
+                    </datalist>
+                </div>
+            </form>
+    </body>
+</html>
